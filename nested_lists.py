@@ -7,10 +7,13 @@ first_row_first_column = matrix[0][0] #Accesses 1
 print("First row and first column value is:",first_row_first_column)
 
 #USING THE PRINT FUNCTION WITH NESTED LISTS
+
 #Pretty printing a Matrix
+print('Printed matrix:')
 for row in matrix:
     print(row)
 
 #Formatted output:
+print('Formatted matrix:')
 for row in matrix:
     print(' '.join(map(str,row)))

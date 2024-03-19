@@ -13,4 +13,4 @@ for row in matrix:
 
 #Formatted output:
 for row in matrix:
-    print(''.join(map(str,row)))
+    print(' '.join(map(str,row)))
